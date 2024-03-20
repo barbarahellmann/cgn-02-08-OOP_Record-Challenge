@@ -9,6 +9,9 @@ public class Main {
         //System.out.println(animal1.equals(animal2)); //Equals
         //System.out.println(animal1); //To string
 
+        Species dogSpecies = new Species("Dog", 500);
+        Species catSpecies = new Species("Cat", 300);
+        
     Animal animal1 = new Animal(01, "Tiger", "Raubkatze", 5);
     Animal animal2 = new Animal(02, "Löwe", "Raubkatze", 2);
     Animal animal3 = new Animal(03, "Kugelfisch", "Meerestier", 6);
