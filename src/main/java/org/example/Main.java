@@ -9,9 +9,6 @@ public class Main {
         //System.out.println(animal1.equals(animal2)); //Equals
         //System.out.println(animal1); //To string
 
-        Species dogSpecies = new Species("Dog", 500);
-        Species catSpecies = new Species("Cat", 300);
-        
     Animal animal1 = new Animal(01, "Tiger", "Raubkatze", 5);
     Animal animal2 = new Animal(02, "Löwe", "Raubkatze", 2);
     Animal animal3 = new Animal(03, "Kugelfisch", "Meerestier", 6);
@@ -23,6 +20,10 @@ public class Main {
     Owner owner2 = new Owner("Sanela", 34, "München");
     Owner owner3 = new Owner("Barbara", 39, "Hamburg");
     Owner owner4 = new Owner("Dominik", 33, "Dorf im Norden");
+
+// Alternativer Ansatz:
+  //  Species dogSpecies = new Species("Dog", 500);
+  //   Species catSpecies = new Species("Cat", 300);
 
     Species species1 = new Species(animal1.species(), 300);
     Species species2 = new Species(animal1.species(), 300);
